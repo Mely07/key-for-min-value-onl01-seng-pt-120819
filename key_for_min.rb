@@ -12,6 +12,7 @@ else
        min = value 
   end
 end
-  return key_for_min
+  return name_hash.minumum
+
 end
 
