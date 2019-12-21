@@ -11,9 +11,8 @@ else
       if value < min
        min = value 
   end
-  
+    return minumum
 end
-  return minumum
 
 end
 
