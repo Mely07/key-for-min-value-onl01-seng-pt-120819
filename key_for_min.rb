@@ -9,9 +9,9 @@ def key_for_min_value(name_hash)
   else
     min = name_hash.values[0]
     name_hash.each do |key, value|
-    if value < min
-    min = value 
-    end
+      if value < min
+        min = value 
+      end
     return minumum
 end
 
