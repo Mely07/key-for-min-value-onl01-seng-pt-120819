@@ -12,7 +12,7 @@ else
        min = value 
   end
 end
-  return name_hash.minumum
+  return minumum
 
 end
 
