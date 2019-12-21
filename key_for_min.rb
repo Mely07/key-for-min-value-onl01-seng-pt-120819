@@ -10,7 +10,7 @@ else
   name_hash.each do |key, value|
       if value < minumum
        minumum = value 
-      end  
+  end  
 end
   return key_for_minumum
 end
