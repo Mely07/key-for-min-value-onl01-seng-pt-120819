@@ -12,6 +12,6 @@ def key_for_min_value(name_hash)
        minumum = value 
       end  
   end
-  return minumum
+  return name_hash.map {|minumum| minumum.keys}
 end
 
