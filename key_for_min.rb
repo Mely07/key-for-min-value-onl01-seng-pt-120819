@@ -5,7 +5,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.empty?
-      return nil 
+
   else
     min = name_hash.values[0]
     min_key = name_hash.keys[0]
