@@ -6,7 +6,7 @@ if name_hash.empty
     return nil 
   
 else
-  min = name_hash.first[0]
+  min = name_hash.first
   name_hash.each do |key, value|
       if value < min
        min = value 
