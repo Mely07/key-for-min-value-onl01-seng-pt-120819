@@ -16,3 +16,5 @@ end
 end
 key_for_min
 end
+
+key_for_min_value(name_hash)
