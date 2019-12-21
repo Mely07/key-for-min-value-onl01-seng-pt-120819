@@ -6,11 +6,12 @@ if name_hash.empty
     return nil 
   
 else
-  min = name_hash.first
+  min = name_hash.values[0]
   name_hash.each do |key, value|
       if value < min
        min = value 
   end
+  
 end
   return minumum
 
